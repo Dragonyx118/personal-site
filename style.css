@@ -383,3 +383,10 @@ main { flex: 1; }
 .project-logo.round-logo img {
     border-radius: 20%;
 }
+.brand .brand-logo {
+    width: 28px;       /* Regola questa larghezza in base a come preferisci */
+    height: 28px;      /* Deve essere uguale alla larghezza per averla quadrata, oppure auto */
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}

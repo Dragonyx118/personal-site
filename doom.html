@@ -1,0 +1,27 @@
+<head>
+    ...
+    <link rel="stylesheet" href="style.css">
+    <!-- js-dos -->
+    <link rel="stylesheet" href="https://v8.js-dos.com/latest/js-dos.css">
+    <script src="https://v8.js-dos.com/latest/js-dos.js"></script>
+</head>
+
+<main>
+    <div class="page-head">
+        <div class="wrap">
+            <h1>Doom</h1>
+            <p>Gioca nel browser. Clicca sullo schermo per far partire il gioco.</p>
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <div class="wrap game-wrap">
+        <div id="dos" class="game"></div>
+    </div>
+
+    <script>
+        Dos(document.getElementById("dos"), {
+            url: "resources/games/doom.jsdos"
+        });
+    </script>
+</main>
